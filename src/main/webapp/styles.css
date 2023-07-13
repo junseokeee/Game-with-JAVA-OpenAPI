@@ -1,0 +1,54 @@
+    .menu {
+        display: inline-block;
+        white-space: nowrap;
+        margin: 30px;
+        cursor: pointer;
+    }
+    h2 {
+        display: flex;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        margin: 3px auto;
+    }
+
+    .bar{
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .sketch {
+        border: 1px solid black;
+        width: 500px;
+        height: 500px;
+    }
+
+    .sketch img {
+        max-width:100%;
+        height:auto;
+
+    }
+
+    .rectangle-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    .rectangle {
+        background-color: #ccc;
+        border: 1px solid #000;
+        height: 100%;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 10%;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }

@@ -4,12 +4,13 @@
     <meta charset="utf-8">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    ${name}
+
+
 
 </head>
 <body>
 
-<h1>${name}</h1>
+<h1></h1>
 
 <hr>
 <table >
@@ -29,6 +30,7 @@
 <a onclick="insertColor()" >입력</a>
 <script>
 
+var xxx = "${base64Image}";
 $(function(){
 
 });
