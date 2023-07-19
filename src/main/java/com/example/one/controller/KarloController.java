@@ -1,21 +1,16 @@
 package com.example.one.controller;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -44,6 +39,7 @@ public class KarloController {
         String clientSecret = "_lnXf8BL9d"; // 애플리케이션 클라이언트 시크릿값
         String[] names = {"고양이", "개", "사자", "호랑이", "곰", "코끼리", "기린", "원숭이", "판다", "양", "침팬지", "뱀", "캥거루", "얼룩말", "고릴라", "오랑우탄", "악어", "펭귄", "사슴", "돌고래", "치타", "물범", "순록", "산", "바다", "호수", "하늘", "폭포", "초원", "섬", "해변", "숲", "바람", "구름", "달", "별", "태양", "무지개", "얼음", "바람력", "사막", "벌판", "축구", "농구", "야구", "수영", "달리기", "테니스", "골프", "볼링", "요가", "배드민턴", "체조", "스케이팅", "헬스", "승마", "서핑", "스노우보드", "클라이밍", "스쿼시"};
         String apiURL = "https://openapi.naver.com/v1/papago/n2mt";
+        
 
         Map<String, String> requestHeaders = new HashMap<>();
         requestHeaders.put("X-Naver-Client-Id", clientId);

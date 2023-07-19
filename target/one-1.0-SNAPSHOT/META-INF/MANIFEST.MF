@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: js
+Build-Jdk: IBM JDK version 11.0.20
+Implementation-Title: one
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: org.example
+Main-Class: ${start-class}
+
